@@ -19,7 +19,7 @@ for plugin ($plugins) fpath=($ZSH/plugins/$plugin $fpath)
 
 # Load and run compinit
 autoload -U compinit
-compinit -i
+compinit -i -C
 
 # Load all of the plugins that were defined in ~/.zshrc
 for plugin ($plugins); do
